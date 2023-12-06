@@ -59,9 +59,13 @@ li:last-child {
 }
 
 .nav-wrapper {
-    /*width: 1920px;*/
+    display: flex;
+    flex-direction: column;
+    width: 1920px;
     height: 800px;
     background-color: #F9F6F1;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -147,6 +151,8 @@ li:last-child {
 
 
 .delivery {
+    display: flex;
+    flex-direction: column;
     width: 1920px;
     height: 235px;
     padding: 40px 0;
@@ -154,6 +160,9 @@ li:last-child {
     color: #FFFFFF;
     text-align: center;
     font-family: Montserrat;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 .delivery h1 {
     padding-top: 80px;
