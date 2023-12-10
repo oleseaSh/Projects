@@ -1,0 +1,136 @@
+@font-face {
+    font-weight: 100;
+    font-family: Montserrat;
+    src: url("../fonts/Montserrat-Thin.ttf");
+}
+
+html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+background-image: url("./img/bg.jpg");
+width: 1280px;
+height: 100vh;
+overflow: hidden;
+font-family: Verdana, Tahoma, sans-serif;
+}
+
+.container {
+    width: 400px;
+    height: 450px;
+    border-radius: 20px;
+    background-color: #2D2F3A;
+    opacity: .8;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    margin: 100px auto auto auto;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    background-color: #655E6C;
+    border: 1px solid #655E6C;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.title {
+    text-align: center;
+    color: #fff;
+    opacity: .8;
+    text-transform: uppercase;
+    font-size: large;
+}
+
+.content_wrapper {
+    padding: 15px;
+}
+
+.email_wrapper {
+    display: flex;
+    padding: 10px;
+    color: #fff;
+    opacity: .8;
+    border-bottom: 1px solid #655E6C;
+    margin: 20px;    
+
+}
+
+.password_wrapper {
+    display: flex;
+    padding: 10px;
+    color: #fff;
+    opacity: .8;
+    border-bottom: 1px solid #655E6C;
+    margin: 20px;    
+    font-size: 15px;
+
+}
+
+.inputbox {
+    display: block;
+    width: 100%;
+    font-weight: 400;
+    background-color: #2D2F3A;
+    background-clip: padding-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 10px;
+    border: none;
+}
+
+.label {
+    padding: 10px;
+}
+ #remeberme {
+    padding-left: 10px;
+ }
+
+ .checkbox_wrapper {
+    padding: 25px;
+ }
+.checkbox {
+    padding: 20px;
+    color: #6E6A77;
+    font: inherit;
+    font-size: 12px;
+    background-color: #2D2F3A;
+    
+}
+
+a {
+ text-decoration: none;
+ 
+}
+
+.login_btn {
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    width: 230px;
+    height: 50px;
+    color: #fff ;
+    opacity: .8;
+    background-color: #454555;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    align-items: center;
+    cursor: pointer;
+}
