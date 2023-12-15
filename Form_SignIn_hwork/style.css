@@ -10,17 +10,23 @@ body {
 
 .container {
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .frame {
+    display: flex;
     width: 1440px;
     height: 900px;
-    background: #FFF; 
-    display: flex;
+    background: #FFF;
+    margin-top: 120px;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, .2);
+   padding-right: 19px;
 }
 
 .signin_form {
     width: 50%;
+    
 }
 
 .your_logo {
@@ -36,22 +42,23 @@ body {
 
 .signin_container {
  margin-left: 128px;
- margin-top: 163px;
+ margin-top: 120px;
  position: relative;
 }
 
 .signin_title {
+    color: #000;
     font-size: 30px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 
 .header_text {
     font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2;
 }
 
 .signintoname_form {
@@ -62,7 +69,7 @@ line-height: normal;
     border-radius: 15px;
     background: #000842;
     justify-content: center;
-   
+    margin-top: 19px;
 }
 
 .cont {
@@ -71,7 +78,6 @@ line-height: normal;
 
 .sgntoname_title {
     color: #FFF;    
-    font-family: Poppins;
     font-size: 40px;
     font-style: normal;
     font-weight: 600;
@@ -79,7 +85,6 @@ line-height: normal;
 }
 
 .sgntoname_text {
- 
     color: #FFF;
     font-family: Poppins;
     font-size: 20px;
@@ -97,3 +102,77 @@ line-height: normal;
     display: block;
     margin-top: -30px;
 }
+
+label {
+    color: #999;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.text-field {
+    padding-top: 50px;
+}
+
+::placeholder {
+    color: #000842;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.input_box {
+    width: 429px;
+}
+
+.text-field_input {
+    border: none;
+    width: auto;
+}
+
+.label_icon {
+    border-bottom: 2px solid;
+    color: #000842;
+    padding-top: 10px;
+}
+
+.login_btn {
+    margin-top: 95px;
+    width: 429px;
+    height: 53px;
+    flex-shrink: 0; 
+    border-radius: 32px;
+    background: #0C21C1;
+    box-shadow: 0px 4px 26px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    color: white;
+    color: #FFF;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.footer_cont {
+    display: flex;
+    flex-direction: column;
+    color: #B5B5B5;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 25px;
+    align-items: center;
+    width: 429px;
+    
+}
+
+.links {
+    display: flex;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
