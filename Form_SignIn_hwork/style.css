@@ -11,3 +11,89 @@ body {
 .container {
     width: 100%;
 }
+
+.frame {
+    width: 1440px;
+    height: 900px;
+    background: #FFF; 
+    display: flex;
+}
+
+.signin_form {
+    width: 50%;
+}
+
+.your_logo {
+    padding-left: 42px;
+    padding-top: 31px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.signin_container {
+ margin-left: 128px;
+ margin-top: 163px;
+ position: relative;
+}
+
+.signin_title {
+    font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.header_text {
+    font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.signintoname_form {
+    display: flex;
+    width: 735px;
+    height: 859px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #000842;
+    justify-content: center;
+   
+}
+
+.cont {
+    margin-top: 130px;
+}
+
+.sgntoname_title {
+    color: #FFF;    
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.sgntoname_text {
+ 
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal; 
+}
+
+.sgntoname_title {
+    display: block;
+    margin-top: 130px;
+}
+
+.sgntoname_text {
+    display: block;
+    margin-top: -30px;
+}
