@@ -31,7 +31,7 @@
     width: 1110px;
     margin: 0 auto;
 }
-.menu-flex {
+.dropdown {
     width: auto;
     margin: 0;
     padding: 0;
@@ -42,12 +42,43 @@
     flex-wrap: wrap;
 
 }
-li {
+.dropbtn {
    padding-right: 20px;
     flex-wrap: wrap;
     font-family: Montserrat;
     font-weight: normal;
+    background-color: #F9F6F1;
+    border: none;
+    cursor: pointer;
 }
+
+.dropdown-men, .dropdown-women, .dropdown-kids {
+    display: none;
+    position: absolute;
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 13px;
+    background-color: #F9F6F1;
+    border: none;
+    cursor: pointer;
+  }
+
+  .dropdown-men a, .dropdown-women a, .dropdown-kids a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-men a:hover, .dropdown-women a:hover, .dropdown-kids a:hover {background-color: #f1f1f1}
+
+  .dropdown:hover .dropdown-men,
+  .dropdown:hover .dropdown-women,
+  .dropdown:hover .dropdown-kids {
+    display: block;
+    margin-top: 80px;
+  }
+
 li:last-child {
     padding-right: 0;
 
