@@ -504,3 +504,35 @@ url(https://image.flaticon.com/icons/svg/130/130882.svg) no-repeat;
     margin: 0 auto;
     background-color: #F9F6F1;
 }
+
+button#next {
+    background: #CECECE;
+    border: none;
+    color:#fff;
+    text-transform: none;
+    cursor: pointer;
+}
+button#prev {
+    background: #CECECE;
+    border: none;
+    color:#fff;
+    text-transform: none;
+    cursor: pointer;
+}
+button#prev:hover, button#next:hover {
+    background:#D7B399;
+}
+.slider {
+    width: 1140px;
+    height: 509px;
+    margin: 30px auto;
+    overflow: hidden;
+}
+.slider-wrapper {
+    height: 377px;
+    width: 4560px;
+    display: flex;
+    position: relative;
+    left:0;
+    transition: all ease 1s;
+}
