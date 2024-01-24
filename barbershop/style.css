@@ -1,3 +1,12 @@
+@font-face {
+    font-size: 7px;
+        font-family: "PTSans";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        line-height: 1.25;
+    src: url("./fonts/PT_Sans-Narrow-Web-Bold.ttf");
+      
+}
 html {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -28,15 +37,22 @@ header {
     height: 100%;
     display: flex;
     justify-content: space-between;
-    padding-left: 20px;
-    padding-right: 20px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+   
+    font-size: 16px;
+        font-family: "PTSans";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        line-height: 1.25;
+
     
     
 }
 .mainmenu > li {
     display: inline-block;
     padding: 22px;
-
+    
 
 }
 .login {
