@@ -20,6 +20,7 @@ html {
     margin: 0;
     padding: 0;
 }
+
 .container {
     width: 2560px;
     height: 1756px;
@@ -38,43 +39,31 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding-left: 20px;
-    padding-right: 20px; */
-   
     font-size: 16px;
-        font-family: "PTSans";
-        color: rgb(255, 255, 255);
-        font-weight: bold;
-        line-height: 1.25;
-
-    
-    
+    font-family: "PTSans";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.25;
 }
 .mainmenu > li {
     display: inline-block;
     padding: 19px;
-    
-
-}
+ }
 .login {
     display: inline-block;
     padding-right: 22px;
     padding-left: 8px;
     background: none;
     border: none;
-        font-size: 16px;
-        font-family: "PTSans";
-        color: rgb(255, 255, 255);
-        font-weight: bold;
-        line-height: 1.25;
-        text-align: center;
-
-    
+    font-size: 16px;
+    font-family: "PTSans";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.25;
+    text-align: center;
 }
-
-.login > img {
+.login img {
     padding-top: 30px;
-    
 }
 
 
@@ -84,10 +73,8 @@ main {
     width: 100%;
     background-image: url(./img/background.png);
     background-size: cover;
-    
 }
 .intro {
-    
     display: flex;
     flex-direction: column;
 }
@@ -101,28 +88,25 @@ main {
     width: 941px;
     display: flex;
     flex-direction: row;
-   justify-content: center;
-   position: relative;
-   margin-left: auto;
-   margin-right: auto;
-   margin-top: 85px;
-   
+    justify-content: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 83px;
 }
  .article {
     display: block;
     text-align: center;
 }
 .article h2 {
-    font-size: 12.757px;
+    font-size: 13px;
     font-family: "PTSans";
     color: rgb(247, 244, 241);
     font-weight: bold;
-    line-height: 1.4;
+    line-height: 1.5;
     text-align: center;
-    -moz-transform: matrix( 2.35162658126206,0,0,2.35162658126206,0,0);
-    -webkit-transform: matrix( 2.35162658126206,0,0,2.35162658126206,0,0);
-    -ms-transform: matrix( 2.35162658126206,0,0,2.35162658126206,0,0);
-    }
+    transform: matrix( 2.35162658126206,0,0,2.35162658126206,0,0);
+}
 .article p {
     font-size: 14px;
     font-family: "PTSans";
