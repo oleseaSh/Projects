@@ -87,6 +87,7 @@ main {
     
 }
 .intro {
+    
     display: flex;
     flex-direction: column;
 }
@@ -104,16 +105,38 @@ main {
    position: relative;
    margin-left: auto;
    margin-right: auto;
-   margin-top: 80px;
+   margin-top: 85px;
    
-   font-family: sans-serif;
-   /* font: PT Sans; */
-
 }
  .article {
     display: block;
     text-align: center;
+}
+.article h2 {
+    font-size: 12.757px;
+    font-family: "PTSans";
+    color: rgb(247, 244, 241);
+    font-weight: bold;
+    line-height: 1.4;
+    text-align: center;
+    -moz-transform: matrix( 2.35162658126206,0,0,2.35162658126206,0,0);
+    -webkit-transform: matrix( 2.35162658126206,0,0,2.35162658126206,0,0);
+    -ms-transform: matrix( 2.35162658126206,0,0,2.35162658126206,0,0);
     }
+.article p {
+    font-size: 14px;
+    font-family: "PTSans";
+    color: rgb(247, 244, 241);
+    font-weight: bold;
+    line-height: 1.714;
+    text-align: center;  
+    padding-left: 25px; 
+    padding-right: 25px;
+    padding-top: 5px;
+}
+.article img {
+    padding: 17px;
+}
 
 
 footer {
